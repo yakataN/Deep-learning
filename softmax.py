@@ -8,6 +8,6 @@ def softmax(a):
     y = exp_a / sum_exp_a
     return y
 
-a = np.array([0.3, 2.9, 4.0])
+a = np.array([1010, 1000, 900])
 y = softmax(a)
 print(y)
