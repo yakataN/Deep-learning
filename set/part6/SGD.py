@@ -36,3 +36,6 @@ class AdaGrad:
         for key in params.keys():
             self.h[key] += grads[key]**2
             params[key] -= self.lr*grads[key]/(np.sqrt(self.h[key])+1e-07)
+
+class Adam:
+    
